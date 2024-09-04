@@ -85,5 +85,49 @@ console.log('Access single key value: ', college.unique.result.merit);
 
 //----------------------Delete object Property or key--------------------------
 
-//----------------------.------------------------------------------------------
-//----------------------.------------------------------------------------------
+//Structure:
+    // delete objectName.keyName;
+
+    const man = {
+        name: 'Rehan',
+        age: 24,
+    }
+
+    delete man.age; // Delete Object
+    console.log("Object is: ",man)
+
+    //Output: Object is:  { name: 'Rehan' }
+
+//----------------------Using Loop in Objec------------------------------------
+const phone ={
+    brand: 'Xiaomi',
+    price: 25000,
+    color: 'Black'
+}
+
+//Method: 01 using For Loop
+for (const property in phone){
+    console.log(property ,':'); //Print All object keys
+    console.log( phone[property]) // Print Key Values
+}
+/*Output: 
+        brand :
+        Xiaomi
+        price :
+        25000
+        color :
+        Black
+*/
+
+//Method: 02  Normal
+const key = Object.keys(phone)
+console.log('Key Is:', key)
+
+const valuee = Object.values(phone)
+console.log( 'value is:', valuee)
+
+/* Output : 
+      Key Is: [ 'brand', 'price', 'color' ]
+    value is: [ 'Xiaomi', 25000, 'Black' ]
+*/
+//----------------------------------------------------------------------------
