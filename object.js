@@ -129,5 +129,6 @@ console.log( 'value is:', valuee)
 /* Output : 
       Key Is: [ 'brand', 'price', 'color' ]
     value is: [ 'Xiaomi', 25000, 'Black' ]
+    
 */
 //----------------------------------------------------------------------------
