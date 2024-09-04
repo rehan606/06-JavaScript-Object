@@ -1,5 +1,4 @@
 <h2>JavaScript Object</h2>
-<hr>
 
 <h3>Table Of Content</h3>
 <ol>
